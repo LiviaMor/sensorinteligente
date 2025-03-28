@@ -56,15 +56,15 @@ public class SensorReader {
     // Método para salvar os dados no banco de dados
     private static void saveToDatabase(String data, String url, String user, String password) {
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
-            String query = "INSERT INTO sensor (luminosidade, temperatura, umidade) VALUES (?, ?, ?)";
+            String query = "INSERT INTO sensor (temperatura, umidade, luminosidade) VALUES (?, ?, ?)";
             try (PreparedStatement stmt = conn.prepareStatement(query)) {
                 // Parsing JSON usando Gson
                 Gson gson = new Gson();
                 SensorDTO sensor = gson.fromJson(data, SensorDTO.class);
 
-                stmt.setInt(1, sensor.getLuminosidade());
-                stmt.setFloat(2, sensor.getTemperatura());
-                stmt.setFloat(3, sensor.getUmidade());
+                stmt.setInt(1, sensor.getTemperatura());
+                stmt.setFloat(2, sensor.getUmidade());
+                stmt.setFloat(3, sensor.getLuminosidade());
                 stmt.executeUpdate();
 
                 System.out.println("Dados inseridos no banco de dados com sucesso!");
