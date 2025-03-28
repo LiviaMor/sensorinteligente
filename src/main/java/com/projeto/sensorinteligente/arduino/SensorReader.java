@@ -62,9 +62,9 @@ public class SensorReader {
                 Gson gson = new Gson();
                 SensorDTO sensor = gson.fromJson(data, SensorDTO.class);
 
-                stmt.setInt(1, sensor.getTemperatura());
+                stmt.setFloat(1, sensor.getTemperatura());
                 stmt.setFloat(2, sensor.getUmidade());
-                stmt.setFloat(3, sensor.getLuminosidade());
+                stmt.setInt(3, sensor.getLuminosidade());
                 stmt.executeUpdate();
 
                 System.out.println("Dados inseridos no banco de dados com sucesso!");

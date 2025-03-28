@@ -3,12 +3,12 @@ package com.projeto.sensorinteligente.dto;
 
 public class SensorDTO {
     private int luminosidade;
-    private int temperatura;
-    private int umidade;
+    private float temperatura;
+    private float umidade;
 
     public SensorDTO() {}
 
-    public SensorDTO(int luminosidade, int temperatura, int umidade) {
+    public SensorDTO(int luminosidade, float temperatura, float umidade) {
         this.luminosidade = luminosidade;
         this.temperatura = temperatura;
         this.umidade = umidade;
@@ -22,19 +22,19 @@ public class SensorDTO {
         this.luminosidade = luminosidade;
     }
 
-    public int getTemperatura() {
+    public float getTemperatura() {
         return temperatura;
     }
 
-    public void setTemperatura(int temperatura) {
+    public void setTemperatura(float temperatura) {
         this.temperatura = temperatura;
     }
 
-    public int getUmidade() {
+    public float getUmidade() {
         return umidade;
     }
 
-    public void setUmidade(int umidade) {
+    public void setUmidade(float umidade) {
         this.umidade = umidade;
     }
 }

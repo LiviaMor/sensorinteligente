@@ -13,8 +13,8 @@ public class Sensor {
     private Long id;
 
     private int luminosidade;
-    private int temperatura;
-    private int umidade;
+    private float temperatura;
+    private float umidade;
 
     public Long getId() {
         return id;
@@ -32,19 +32,19 @@ public class Sensor {
         this.luminosidade = luminosidade;
     }
 
-    public int getTemperatura() {
+    public float getTemperatura() {
         return temperatura;
     }
 
-    public void setTemperatura(int temperatura) {
+    public void setTemperatura(float temperatura) {
         this.temperatura = temperatura;
     }
 
-    public int getUmidade() {
+    public float getUmidade() {
         return umidade;
     }
 
-    public void setUmidade(int umidade) {
+    public void setUmidade(float umidade) {
         this.umidade = umidade;
     }
 }
