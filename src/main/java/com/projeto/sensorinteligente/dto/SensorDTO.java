@@ -5,29 +5,21 @@ public class SensorDTO {
     private int temperatura;
     private int umidade;
 
-    public void setLuminosidade(int luminosidade) {
+    public SensorDTO() {}
+
+    public SensorDTO(int luminosidade, int temperatura, int umidade) {
         this.luminosidade = luminosidade;
-    }
-
-    public void setTemperatura(int temperatura) {
         this.temperatura = temperatura;
-    }
-
-    public void setUmidade(int umidade) {
         this.umidade = umidade;
     }
 
+    // Getters and setters
+    public int getLuminosidade() { return luminosidade; }
+    public void setLuminosidade(int luminosidade) { this.luminosidade = luminosidade; }
 
-    public int getLuminosidade() {
-        return luminosidade;
-    }
+    public int getTemperatura() { return temperatura; }
+    public void setTemperatura(int temperatura) { this.temperatura = temperatura; }
 
-    public int getTemperatura() {
-        return temperatura;
-    }
-
-    public int getUmidade() {
-        return umidade;
-    }
+    public int getUmidade() { return umidade; }
+    public void setUmidade(int umidade) { this.umidade = umidade; }
 }
-
