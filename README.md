@@ -1,4 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Sensor+Inteligente)](https://git.io/typing-svg)
+
 Projeto apresentado a disciplina Projeto Integrador V-B da PUC-GO.
 Este projeto realiza o monitoramento em tempo real de sensores de temperatura, umidade e luminosidade usando hardware
 Arduino UNO e comunicação serial. Os dados são coletados, processados no mySql.
