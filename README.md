@@ -69,3 +69,6 @@ antes de iniciar o programa
 7. Execute o banco de dados MySQL;
 8. Inicie o projeto executando a classe 'SensorIntelligenteAplication.java`;
 
+## Protótipo Figma
+
+(<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/XxyYvZyptC2WBfPxRKlLbJ/Untitled?node-id=0-1&embed-host=share" allowfullscreen></iframe>)
