@@ -55,7 +55,7 @@ antes de iniciar o programa.
 
 1. Clone este repositório;
    ``` language
-   git clone <link-do-repositorio>
+   git clone https://github.com/LiviaMor/sensorinteligente.git
    ``` 
 2. Conecte o Arduino via USB;
 3. Abra o código do Arduino na Arduino IDE, atualize as bibliotecas necessárias e faça o upload para o Arduino;
