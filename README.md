@@ -1,6 +1,6 @@
 # Sensor Inteligente
 
-Projeto Integrador V-B apresentado a disciplina PUC-GO.
+Projeto apresentado a disciplina Projeto Integrador V-B da PUC-GO.
 Este projeto realiza o monitoramento em tempo real de sensores de temperatura, umidade e luminosidade usando hardware
 Arduino UNO e comunicação serial. Os dados são coletados, processados no mySql.
 
@@ -43,7 +43,7 @@ Banco de Dados: MySQL para armazenamento de dados.
 ## Problemas Conhecidos
 
 A conexão serial pode falhar se a porta já estiver ocupada por outro processo. Certifique-se de que a porta está livre
-antes de iniciar o programa
+antes de iniciar o programa.
 
 ## Colaboradores
 
@@ -54,7 +54,7 @@ antes de iniciar o programa
 ## Como Usar
 
 1. Clone este repositório;
-   ``` git
+   ``` language
    git clone <link-do-repositorio>
    ``` 
 2. Conecte o Arduino via USB;
@@ -71,4 +71,3 @@ antes de iniciar o programa
 
 ## Protótipo Figma
 
-(<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/XxyYvZyptC2WBfPxRKlLbJ/Untitled?node-id=0-1&embed-host=share" allowfullscreen></iframe>)
