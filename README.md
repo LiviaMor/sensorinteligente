@@ -13,6 +13,7 @@ Arduino UNO e comunicação serial. Os dados são coletados, processados no mySq
 
 Protótipo - Figma;
 Backend - Java (SpringBoot),integração com Arduino via , e Gson para manipulação de JSON;
+Arduino IDE;
 Hardware - Arduino UNO, sensor de temperatura e umidade (DHT11), luminosidade (LDR);
 Banco de Dados: MySQL para armazenamento de dados.
 
@@ -53,11 +54,18 @@ antes de iniciar o programa
 ## Como Usar
 
 1. Clone este repositório;
-2. Ligue o Arduino via USB;
-3. Copie e cole o codigo do arduíno (na arduinoIDE) e atualize as bibliotecas e salve;
-4. Abra o projeto na sua IDE Java preferida;
-5. Adicione a biblioteca jSerialComm ao seu projeto Java;
-6. Adicione a biblioteca Gson ao seu projeto Java;
-7. Edite os dados de usuario e senha do banco de dados;
-8. Abra o Mysql;
-9. Execute a classe 'SensorintelligenteAplication.java`;
+   ``` git
+   git clone <link-do-repositorio>
+   ``` 
+2. Conecte o Arduino via USB;
+3. Abra o código do Arduino na Arduino IDE, atualize as bibliotecas necessárias e faça o upload para o Arduino;
+4. Abra o projeto na sua IDE Java de sua preferencia;
+5. Adicione as dependencias do projeto
+    * Biblioteca jSerialComm
+    * Biblioteca Gson
+    * Biblioteca MySQL
+6. Configure o banco de dados MySQL;
+    * Atualize as credencias de usuário e senha no arquivo `application.properties`.
+7. Execute o banco de dados MySQL;
+8. Inicie o projeto executando a classe 'SensorIntelligenteAplication.java`;
+
