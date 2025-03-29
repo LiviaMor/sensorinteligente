@@ -1,5 +1,5 @@
 <h1 align="center"> Seu título aqui </h1>
-[Sensor Inteligente](https://www.canva.com/design/DAGjHqyFi2M/RVgoFZ0VPlWv2ZeFSs9ISQ/view)
+![Sensor Inteligente](https://www.canva.com/design/DAGjHqyFi2M/RVgoFZ0VPlWv2ZeFSs9ISQ/view)
 Projeto apresentado a disciplina Projeto Integrador V-B da PUC-GO.
 Este projeto realiza o monitoramento em tempo real de sensores de temperatura, umidade e luminosidade usando hardware
 Arduino UNO e comunicação serial. Os dados são coletados, processados no mySql.
