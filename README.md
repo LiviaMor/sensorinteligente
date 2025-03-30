@@ -70,4 +70,4 @@ antes de iniciar o programa.
 8. Inicie o projeto executando a classe 'SensorIntelligenteAplication.java`;
 
 ## Protótipo Figma
-
+[Home Automation](https://www.figma.com/design/XxyYvZyptC2WBfPxRKlLbJ/Untitled?node-id=0-1&m=dev&t=Pz4EOUMBZ6WTDeGF-1)
