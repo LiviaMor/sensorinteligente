@@ -61,9 +61,9 @@ antes de iniciar o programa.
 3. Abra o código do Arduino na Arduino IDE, atualize as bibliotecas necessárias e faça o upload para o Arduino;
 4. Abra o projeto na sua IDE Java de sua preferencia;
 5. Adicione as dependencias do projeto
-    * Biblioteca jSerialComm
-    * Biblioteca Gson
-    * Biblioteca MySQL
+    * Biblioteca ```jSerialComm```
+    * Biblioteca ```Gson```
+    * Biblioteca ```MySQL```
 6. Configure o banco de dados MySQL;
     * Atualize as credencias de usuário e senha no arquivo `application.properties`.
 7. Execute o banco de dados MySQL;
