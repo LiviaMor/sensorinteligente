@@ -71,3 +71,4 @@ antes de iniciar o programa.
 
 ## Protótipo Figma
 [Home Automation](https://www.figma.com/design/XxyYvZyptC2WBfPxRKlLbJ/Untitled?node-id=0-1&m=dev&t=Pz4EOUMBZ6WTDeGF-1)
+[Arduino UNO](https://discord.com/channels/1080098221122142310/1082359540747620523/1355535367025070182)
