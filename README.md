@@ -71,5 +71,9 @@ antes de iniciar o programa.
 
 ## Protótipo Figma
 [Home Automation](https://www.figma.com/design/XxyYvZyptC2WBfPxRKlLbJ/Untitled?node-id=0-1&m=dev&t=Pz4EOUMBZ6WTDeGF-1)
+
+## Protótipo Arduíno 
+[Thinkercad](https://www.tinkercad.com/things/2tklqmJ5YM4-sensor-temperatura-umidade-e-luminosidade)
+
 ## Arduino em Funcionamento
 [Arduino UNO](https://www.canva.com/design/DAGjHgMkeaA/iZ6W3eBxhJGXq3_Xgla_GQ/watch)
