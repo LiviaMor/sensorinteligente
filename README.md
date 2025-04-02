@@ -2,7 +2,7 @@
 
 Projeto apresentado a disciplina Projeto Integrador V-B da PUC-GO.
 Este projeto realiza o monitoramento em tempo real de sensores de temperatura, umidade e luminosidade usando hardware
-Arduino UNO e comunicação serial. Os dados são coletados, processados no mySql.
+Arduino UNO e comunicação serial. Os dados são coletados e processados no mySql.
 
 ## Funcionalidades
 
@@ -13,9 +13,9 @@ Arduino UNO e comunicação serial. Os dados são coletados, processados no mySq
 
 Protótipo - Figma;
 Backend - Java (SpringBoot),integração com Arduino via , e Gson para manipulação de JSON;
-Arduino IDE;
+Backend - Arduino IDE;
 Hardware - Arduino UNO, sensor de temperatura e umidade (DHT11), luminosidade (LDR);
-Banco de Dados: MySQL para armazenamento de dados.
+Banco de Dados - MySQL para armazenamento de dados.
 
 ## Estrutura do Projeto
 
@@ -33,11 +33,11 @@ Banco de Dados: MySQL para armazenamento de dados.
 ## Pré-requisitos
 
 * Java Development Kit (JDK) instalado. (Usei o 17)
-* Maven: Configurado no ambiente.
-* Arduino IDE: Para enviar o firmware aos sensores.
+* Maven - Configurado no ambiente.
+* Arduino IDE - Para enviar o firmware aos sensores.
 * Biblioteca jSerialComm adicionada ao projeto.
 * Biblioteca GSON
-* Banco de dados: MySQL
+* Banco de dados - MySQL
 * IDE da sua preferência (eu utilizei IntelliJ).
 
 ## Problemas Conhecidos
