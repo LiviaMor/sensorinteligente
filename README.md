@@ -20,7 +20,7 @@ Banco de Dados: MySQL para armazenamento de dados.
 ## Estrutura do Projeto
 
 * `SensorintelligenteAplication.java`: Ponto de entrada da aplicação Spring Boot
-* `IniciarSerialCommunication`.java: Classe utilizada para iniciar e configurar a comunicação serial com o Arduino.
+* `IniciarSerialCommunication.java`: Classe utilizada para iniciar e configurar a comunicação serial com o Arduino.
 * `SensorReader.java`:  Classe principal que gerencia a comunicação e o processamento dos dados recebidos via porta
   serial.
 * `SerialCommunication.java`: Classe dedicada a lidar diretamente com a comunicação serial.
@@ -61,9 +61,9 @@ antes de iniciar o programa.
 3. Abra o código do Arduino na Arduino IDE, atualize as bibliotecas necessárias e faça o upload para o Arduino;
 4. Abra o projeto na sua IDE Java de sua preferencia;
 5. Adicione as dependencias do projeto
-    * Biblioteca ```jSerialComm```
-    * Biblioteca ```Gson```
-    * Biblioteca ```MySQL```
+    * Biblioteca `jSerialComm`
+    * Biblioteca `Gson`
+    * Biblioteca `MySQL`
 6. Configure o banco de dados MySQL;
     * Atualize as credencias de usuário e senha no arquivo `application.properties`.
 7. Execute o banco de dados MySQL;
