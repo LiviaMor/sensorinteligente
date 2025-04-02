@@ -16,13 +16,9 @@ Arduino UNO e comunicação serial. Os dados são coletados e processados no myS
 ## Tecnologias Utilizadas
 
 Protótipo - Figma;
-
 Backend - Java (SpringBoot),integração com Arduino via , e Gson para manipulação de JSON;
-
 Backend - Arduino IDE;
-
 Hardware - Arduino UNO, sensor de temperatura e umidade (DHT11), luminosidade (LDR);
-
 Banco de Dados - MySQL para armazenamento de dados.
 
 ## Estrutura do Projeto
